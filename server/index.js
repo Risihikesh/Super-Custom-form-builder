@@ -6,7 +6,7 @@ app.use(express.json({ limit: "50mb" }));
 var cors = require("cors");
 app.use(cors());
 var bodyParser = require("body-parser");
-const FormRagisterSchema = require("./mongoDBSchema/formResult");
+const FormRagisterSchema = require("./model/formResult");
 
 app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 
