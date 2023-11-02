@@ -11,7 +11,7 @@ const FormRagisterSchema = require("./mongoDBSchema/formResult");
 app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 
 mongoose
-  .connect('mongodb://127.0.0.1/codeial_defvelopment', {
+  .connect('mongodb+srv://krishikesh369:mTM7uWE7AO084Jmy@cluster0.masbiid.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })

@@ -38,7 +38,7 @@ const SubmitBtn = () => {
 
     try {
       axios
-        .post("https://super-assistant-assignment.onrender.com/", {
+        .post("http://localhost:3000/", {
           categoryDragAndDropData: categoryDragAndDropData,
           dropDownBlanksData: dropDownBlanksData,
           comprehensionData: comprehensionData,
