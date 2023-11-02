@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-require("dotenv").config();
+
 const mongoose = require("mongoose");
 app.use(express.json({ limit: "50mb" }));
 var cors = require("cors");
