@@ -1,0 +1,22 @@
+.success-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.check-icon {
+  width: 9%;
+  margin-right: 20px;
+}
+
+.success-message > .message-heading {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.success-message > .message-text {
+  font-size: 30px;
+  font-weight: 500;
+}

@@ -1,0 +1,21 @@
+.text-box {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+}
+.dropBoxDiv {
+  width: 60px;
+  height: 35px;
+  border: none;
+  background-color: #f0f0f0;
+}
+.dropBox {
+  background-color: purple;
+  padding: 8px 10px;
+  color: white;
+}
+.drag-drop-containerr {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}

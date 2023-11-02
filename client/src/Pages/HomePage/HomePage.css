@@ -1,0 +1,18 @@
+.home-page-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0 80px 10px 80px;
+}
+
+.content-section {
+  width: 75%;
+}
+
+.filter-section {
+  width: 30vh;
+  padding: 30vh 0vh 0vh 8vh;
+}
+
+.logo-image {
+  width: 250px;
+}

@@ -1,0 +1,37 @@
+.filter-component-container {
+  width: 15%;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: white;
+  position: fixed;
+}
+.summary-box {
+  font-size: 30px;
+  font-weight: 600;
+}
+.filterDiv > p {
+  font-size: 20px;
+}
+
+.summary-heading {
+  font-size: 30px;
+}
+
+.green {
+  font-size: 18px;
+  padding: 10px 12px;
+  margin-left: 10px;
+  border: none;
+  background-color: #e9f8ef;
+  border: 2px solid #7cfcb0;
+}
+
+.blue {
+  font-size: 18px;
+  padding: 10px 12px;
+  margin-left: 10px;
+  border: none;
+  background-color: #eaf0ff;
+  border: 2px solid #6082d6;
+}
